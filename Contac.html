@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title> Contact </title>
+    <meta charset="UFT-8" />
+    <!--Cambiar href si necesito otro css-->
+    <!--Tengo que arreglar primero el navegador poqrque cuando pongo el estilo se come le formulario--> 
+    <!--  <link rel="stylesheet" type="text/css" href="css/style.css" />  -->
+    <!--Poner el favicon-->
+</head>
+<header>
+    <!--Logo + Paws + Navegation bar-->
+    <nav id="navbar">
+        <img src="img\Screenshot 2024-10-06 140441.png" alt="Paws Logo" class="logo">
+        <h1 class="logo"> Paws </h1>
+        <ul class="navegation">
+            <li><a href="">Home</a> </li>
+            <li><a href="">Adopt</a> </li>
+            <li><a href="Page 2.html">The Mission</a> </li>
+            <li><a href="">Help more</a> </li>
+            <li><a href="">Tips</a> </li>
+            <li><a href="Contac.html">Contact</a> </li>
+            <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button"  class="button">Donate</a> </li>
+        </ul>
+    </nav>
+</header>
+<body> 
+    <!--cambair imagen-->
+    <img src="img\image.png" alt="Banner:Two stray dogs"  class="banner">
+    <article class="blue-header">   
+        <h2> Contact Page </h2>
+        <p> 
+            Do you have any questions or requests? Then, complete and 
+            submit this form so we can reply as soon as possible     .
+        </p>
+    </article>
+
+    <article>
+        <p>
+            If you are here because you have fell in love with one of our pets and you want to start the 
+            adoption process or maybe just get to know them, fill this same form as well BUT don’t 
+            forget to include the name of the pet that caught your eye in the question box
+        </p>
+    </article>
+
+    <article>
+        <p>
+            All the fields with * are mandatory to fill
+        </p>
+    </article>  
+
+    <section>
+        <!--navergador-->
+    </section>
+    <section>
+    <form action = "https://coolinhollanddemo.azurewebsites.net/" method="POST">
+        <label for="check-female"> Ms.</label>
+        <input type="checkbox" id="check-female" name="gender" value="female">
+
+        <label for="check-male"> Mr.</label>
+        <input type="checkbox" id="check-male" name="gender" value="male">
+
+        <label for="check-other"> Other</label>
+        <input type="checkbox" id="check-other" name="gender" value="other">
+
+        <label for="name"> First name * </label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+
+        <label for="last-name"> Last name* </label>
+        <input type="text" id="last-name" name="last-name" placeholder="Surname" required>
+
+        <label for="email"> Email *</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com.cu">
+
+        <label for="telephone"> Phone Number</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="+123 456 789">
+
+        <label for= "message">Your message *</label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    </section>
+</body>
+<footer id="footer">
+    <!--Logo + All options (maybe in a list)-->
+   <img src="img\Screenshot 2024-10-06 140441.png" alt="Paws Logo" class="logo-footer">
+   <!--Ponerle a las listas el estilo para quitarles la bola de alante-->
+   <ul class="footer">
+       <li>About us</li>
+       <li><a href="Page 2.html">The Mission</a> </li>
+       <li><a href="">Tips</a> </li>
+   </ul>
+   <ul class="footer">
+       <li>Help</li>
+       <li><a href="">Volunteer</a> </li>
+       <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button">Donate</a> </li>
+   </ul>
+   <ul class="footer">
+       <li>General</li>
+       <li><a href="Contac.html">Contact us</a> </li>
+   </ul>
+   <p>&copy; 2024 Melissa Lemus. All rights reserved</p>
+</footer>
+</html>

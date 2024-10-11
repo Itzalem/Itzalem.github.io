@@ -80,6 +80,7 @@ img.banner
 .blue-header
 {
     background-color:#0674A7;
+    border-radius: 50px; 
     /*Cuando le cambio el tamaño se me va para arriba como la foto*/
     /*width: 700px;*/
     /*height: 200px;*/
