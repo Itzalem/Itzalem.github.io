@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#navbar
+{
+    background-color: #FFFAFA;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}  
+
+.logo
+{
+    display: inline-block;
+}
+
+img.logo 
+{
+    width: 100px;
+    height: auto;
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+
+h1.logo {
+    color: #0674A7;
+    font-size: 65px;
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 60px;
+}
+
+.navegation {
+    list-style-type: none;
+    margin-top: 53px;
+    position: relative;
+    float: right;
+}
+
+.navegation li
+{   
+    padding-left: 43px;
+    display: inline-block;
+}
+
+.navegation a
+{
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button
+{
+    color: #FFFAFA;
+    background-color: #FFB800;
+    border-style: solid;
+    border-color:#E0A100;
+    border-width: 2px;   
+    padding: 16px 23px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+img.banner
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.blue-header
+{
+    background-color:#0674A7;
+    /*Cuando le cambio el tamaño se me va para arriba como la foto*/
+    /*width: 700px;*/
+    /*height: 200px;*/
+    margin-left: 22%;
+    margin-right: 22%;
+    text-align: center;
+    color:#FFFAFA
+}
+
+.blue-header h2
+{
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 50px;
+    padding:0;
+    margin-bottom: 27px;
+    margin-top: 37px;
+    width: 270px;
+}
+
+.blue-header p
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    width: 600px;
+}
+
+.article-typo 
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.article-typo h3
+{
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #163B55
+}
+
+.article-typo h4
+{
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    color: #163B55
+}
+
+.image-pets
+{
+    width: 400px;
+    height: 324px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: #0674A7;
+    border-radius: 60px;
+    border-width: 6px;
+    background-color: #EDF8FF;
+    padding: 25px;
+}
+
+.image-puppy
+{
+    margin-left: 10%;
+    float: left
+}
+
+.image-muffy
+{
+    margin-right: 10%;
+    float: right;
+    overflow: auto;
+}
+
+#footer
+{
+    background-color: #D2E9F8;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}  
+
+.logo-footer 
+{
+    width: 90px;
+    height: auto;
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+
+.footer {
+    list-style-type: none;
+    margin-top: 53px;
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    padding: 0;
+}
+
+.footer li
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: #000000;
+    font-size: 20px;
+}
+
+.footer li
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer a
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    text-decoration: none;
+    color:#000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
