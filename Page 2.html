@@ -8,30 +8,32 @@
 </head>
 <header>
     <!--Logo + Paws + Navegation bar-->
-    <nav id="navbar">
+    <nav id="navbar_container">
         <img src="img\Screenshot 2024-10-06 140441.png" alt="Paws Logo" class="logo">
-        <h1 class="logo"> Paws </h1>
-        <ul class="navegation">
+        <h1 class="website_name"> Paws </h1>
+        <ul class="navegation_items">
             <li><a href="">Home</a> </li>
             <li><a href="">Adopt</a> </li>
-            <li><a href="">The Mission</a> </li>
+            <li><a href="Page 2.html">The Mission</a> </li>
             <li><a href="">Help more</a> </li>
-            <li><a href="">Tips</a> </li>
+            <li><a href="Page 4.html">Tips</a> </li>
             <li><a href="Contac.html">Contact</a> </li>
             <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button"  class="button">Donate</a> </li>
         </ul>
     </nav>
-</header>
-<body> 
-    <img src="img\image.png" alt="Banner:Two stray dogs"  class="banner">
-    <article class="blue-header">   
-        <h2> The Mission </h2>
-        <p> 
+    <section class="banner-container">
+        <img src="img\image.png" alt="Banner:Girl with a dog"  class="banner">
+        <article class="blue-header">
+            <h2> The Mission </h2>
+            <p> 
             In Paws we believe in second chances, we want to build a world with love enough for all animals. 
             Every single one of them deserves to have a home and a family     .
-        </p>
-    </article>
-
+            </p>
+        </article>
+    </section>
+</header>
+<body> 
+    
     <!--Sections + Articles (primero tengo una section y después un article)-->
     <!--Necesito un Aside dentro del codigo-->
     <section class="article-typo">
@@ -52,55 +54,63 @@
             </p>
         </article>
         
-        <img src="img\Pupi.jpg" alt="Photo of a female dog named Pupi" class="image-pets image-puppy">
-        <article>
-            <article >   
-            <h4>Meet Pupi:</h4>
-            <p> 
-                 Her mother ran away very scared from her old house during a big and loud holiday party. 
-                After days and nights of fear and hungry a loving family found her not knowing she was all that time pregnant with seven babies. 
-                Luckily the family gave away all the puppies in responsible adoptions, Pupi was the last one and there was no family who could take her.
-            </p>
-            <p>
-                Actually, because of that wait she created a bond with her mom none could break, not even the foster family who decided after a few days that they would adopt Pupi as well. 
-                Now they have been living together as mother and daughter for more than 9 years thanks to that loving family. 
-            </p>
+        
+        <article class="puppy_container ">
+            <img src="img\Pupi.jpg" alt="Photo of a female dog named Pupi" class="images image-puppy"> 
+            <section class="text-puppy">
+                <h4 >Meet Pupi:</h4>
+                <p> 
+                     Her mother ran away very scared from her old house during a big and loud holiday party. 
+                    After days and nights of fear and hungry a loving family found her not knowing she was all that time pregnant with seven babies. 
+                    Luckily the family gave away all the puppies in responsible adoptions, Pupi was the last one and there was no family who could take her.
+                </p>
+                <p>
+                    Actually, because of that wait she created a bond with her mom none could break, not even the foster family who decided after a few days that they would adopt Pupi as well. 
+                    Now they have been living together as mother and daughter for more than 9 years thanks to that loving family. 
+                 </p>
+            </section> 
         </article>
-        <img src="img\Mufito.jpg" alt="Photo of a male dog named Muffi" class="image-pets image-muffy">
-        <article>
-            <h4>Meet Muffi:</h4>
-            <p> 
-                He was a stray dog in the hot and dangerous streets of Cuba. 
-                Going through so much pain, fear and abuse, he got very sick by the point of almost dying. 
-                But then a lovely girl found him and decided to tak him home with her. 
-                She was hopeful but without the access to the right medicines or good veterinaries cares. 
-            </p>
-            <p>
-                Muffi struggled for his life for many weeks, and no progress was seen, but when everyone told her to let him go, she kept trying. 
-                So when she found an opportunity to live abroad, she knew she needed to bring him also. 
-                Now, a few treatments and years latter Muffito could not be healthier and happier living in The Netherlands thanks to that girl who never gave up on him. 
-            </p>
+       
+        <article class="muffy_container">
+            
+            <section class="text-muffy">
+                <h4>Meet Muffi:</h4>
+                <p> 
+                    He was a stray dog in the hot and dangerous streets of Cuba. 
+                    Going through so much pain, fear and abuse, he got very sick by the point of almost dying. 
+                    But then a lovely girl found him and decided to tak him home with her. 
+                    She was hopeful but without the access to the right medicines or good veterinaries cares. 
+                </p>
+                <p>
+                    Muffi struggled for his life for many weeks, and no progress was seen, but when everyone told her to let him go, she kept trying. 
+                    So when she found an opportunity to live abroad, she knew she needed to bring him also. 
+                    Now, a few treatments and years latter Muffito could not be healthier and happier living in The Netherlands thanks to that girl who never gave up on him. 
+                </p>
+            </section>
+            <img src="img\Mufito.jpg" alt="Photo of a male dog named Muffi" class="images image-muffy">
         </article>
     </section>
 </body>
 <footer id="footer">
+    <section class="footer-container">
      <!--Logo + All options (maybe in a list)-->
     <img src="img\Screenshot 2024-10-06 140441.png" alt="Paws Logo" class="logo-footer">
     <!--Ponerle a las listas el estilo para quitarles la bola de alante-->
-    <ul class="footer">
+    <ul class="footer-items">
         <li>About us</li>
         <li><a href="">The Mission</a> </li>
         <li><a href="">Tips</a> </li>
     </ul>
-    <ul class="footer">
+    <ul class="footer-items">
         <li>Help</li>
         <li><a href="">Volunteer</a> </li>
         <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button">Donate</a> </li>
     </ul>
-    <ul class="footer">
+    <ul class="footer-items">
         <li>General</li>
         <li><a href="Contac.html">Contact us</a> </li>
     </ul>
+    </section>
     <p>&copy; 2024 Melissa Lemus. All rights reserved</p>
 </footer>
 </html>
