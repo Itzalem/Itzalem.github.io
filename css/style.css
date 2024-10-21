@@ -66,14 +66,18 @@ body
 
 .button
 {
+    font-weight: 700;
     color: #FFFAFA;
     background-color: #FFB800;
     border-style: solid;
     border-color:#E0A100;
+    text-decoration: none;
     border-width: 2px;   
     padding: 5px 20px;
     margin-right: 30px;
     border-radius: 30px;
+    width: fit-content;
+    text-align: center;
 }
 
 .banner-container
@@ -90,13 +94,14 @@ img.banner
 }
 
 .blue-header
-{
-    width: 700px;
+{    
+    width: 40%;
     background-color:#0674A7;
     border-radius: 50px;
     margin-top: -70px;
     margin-left: 22%;
     margin-right: 22%;
+    margin-bottom: 54px;
     text-align: center;
     color:#FFFAFA
 }
@@ -105,7 +110,6 @@ img.banner
 {
     font-family: "El Messiri", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
     font-size: 50px;
     padding:0;
     margin-bottom: 27px;
@@ -133,7 +137,7 @@ img.banner
     margin-right: 10%;
 }
 
-.article-typo p
+.article-typo p, .button
 {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
@@ -142,6 +146,28 @@ img.banner
     text-align: justify;
     margin-top: 10px;
 }
+
+
+.article-typo form 
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.article-typo ::placeholder
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+}
+
 
 .article-typo h3
 {
@@ -153,6 +179,7 @@ img.banner
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom:0px;
+    margin-top: 0;
     color: #163B55
 }
 
@@ -171,7 +198,6 @@ img.banner
 
 .images
 {
-    
     width: 400px;
     height: 324px;
     object-fit: cover;
@@ -283,7 +309,285 @@ img.banner
     color:#000000
 }
 
+.options-container
+{
+    display: grid;
+    column-gap: 90px;
+    row-gap: 0;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: auto auto; /*cambiar tamaño*/
+    justify-content: space-between;
+    background-color: #D2E9F8;
+    border-radius: 30px;
+    padding-left: 40px; /*Si pongo todo el padding en una sola linea no me sale*/
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
 
+.curiosity-container
+{
+    display: grid;
+    column-gap: 0; /*no puedo pegar mas las columnas*/
+    row-gap: 10px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.way-img
+{
+    width: 210px;
+    align-self: center;
+    justify-self: center;
+}
+
+.curiosity-typo p
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    border-style: solid;
+    border-color: #0674A7;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.curiosity-typo p:first-of-type
+{
+border-top-left-radius: 90px;
+border-bottom-right-radius: 90px;
+}
+
+.curiosity-typo p:last-of-type
+{
+border-top-right-radius: 90px;
+border-bottom-left-radius: 90px;
+}
+
+.curiosity-typo h3  
+{
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #163B55;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 0;
+}
+
+.tips-box
+{
+    background-color: #D2E9F8;
+    display:flex;
+    border-radius: 30px;
+    padding-left: 40px; /*Si pongo todo el padding en una sola linea no me sale*/
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 90px;
+}
+
+/*-----Specifics-Page-1--------------------------------------------------------*/
+.image-profile
+{
+    width: 276px;
+    height: 300px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: #163B55;
+    border-radius: 20px;
+    border-width: 4px;
+}
+
+.paragraph-enter p
+{
+    width: 350px; 
+    margin: 0 auto 50px auto ;
+    white-space: pre-line;
+}
+
+.profile-containers
+{
+    display: grid;
+    column-gap: 160px;
+    row-gap: 0;
+    grid-template-columns: 277px 277px 277px;
+    grid-template-rows: auto auto auto auto auto auto; /*cambiar tamaño*/
+    justify-content: space-between;
+}
+
+.profile-containers h3 
+{
+    justify-self: start; 
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/*-----Specifics-Page-3--------------------------------------------------------*/
+.shelters-container
+{
+    display: grid;
+    column-gap: 160px;
+    row-gap: 0;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: auto auto; /*cambiar tamaño*/
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*como poner la letra dentro de los botones en negrita sin cambiar la de parrafos enteros*/
+
+.shelters-container img
+{
+    height: 120px;
+    width: auto;
+}
+
+.shelters-container .button 
+{
+    margin: 20px auto;
+}
+
+.donate-container
+{
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
+}
+
+.content-donate
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.center-button{
+    margin: 0 auto; /* Centrar el botón */
+}
+
+.donate-container img
+{
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+}
+
+/*-----Specifics-Page-4--------------------------------------------------------*/
+.list-container
+{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tips
+{
+    flex-grow: 1;
+    /*width: 641px;*/
+    /*margin-left: 10px;*/
+    background-color: #D2E9F8;
+    padding: 35px;
+    border-radius: 60px;
+    margin-right: 30px;
+}
+
+.tips li
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+/*-----Specifics-Contact--------------------------------------------------------*/
+.contact-container
+{
+    display: flex;
+}
+
+.text-container
+{
+    margin-right: 96px;
+}
+
+.form-container input, .form-container textarea
+{
+    background-color: #D2E9F8;
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px 10px;
+}
+
+.form-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    width: 550px;
+}
+
+.form-container p
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #FFB800
+}
+
+.form-container label
+{
+   margin-top: 20px;
+}
+
+.form-container input[type="submit"].button 
+{
+    font-weight: 700;
+    color: #FFFAFA;
+    background-color: #FFB800;
+    border-style: solid;
+    border-color:#E0A100;
+    text-decoration: none;
+    border-width: 2px;   
+    padding: 5px 20px;
+    margin-right: 30px;
+    border-radius: 30px;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.checklist-container
+{
+    display: flex;
+    margin-right: 50%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.checklist-container label
+{
+    margin-top: 10px;
+}
 
 
 
