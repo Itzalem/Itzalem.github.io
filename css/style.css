@@ -64,6 +64,11 @@ body
     text-decoration: none;
 }
 
+.navegation_items a:hover
+{
+    text-decoration: underline;
+}
+
 .button
 {
     font-weight: 700;
@@ -79,6 +84,14 @@ body
     width: fit-content;
     text-align: center;
 }
+
+a.button:hover
+{
+    background-color: #163B55;
+    border-style: solid;
+    border-color:#011F2D;
+}
+
 
 .banner-container
 {
@@ -117,6 +130,8 @@ img.banner
     width: 270px;
     margin-right: 35%;
     margin-left: 35%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
 .blue-header p
@@ -196,6 +211,24 @@ img.banner
     
 }
 
+figure
+{
+    margin:0;
+    padding:0;
+}
+
+figcaption
+{
+    text-align: center;
+    width: 460px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
 .images
 {
     width: 400px;
@@ -220,6 +253,10 @@ img.banner
     width: 641px;
 }
 
+.text-puppy p {
+    text-indent: 5%;
+}
+
 .image-puppy {
     margin-right: 52px;
     flex-shrink: 0;
@@ -237,6 +274,11 @@ img.banner
 {
     flex-grow: 1;
     width: 641px;
+}
+
+.text-muffy p
+{
+    text-indent: 5%;
 }
 
 .image-muffy
@@ -270,6 +312,11 @@ img.banner
     align-items: center;
 }
 
+.footer-container ul:last-of-type
+{
+    align-self: flex-start;
+}
+
 .logo-footer 
 {
     width: auto;
@@ -287,7 +334,7 @@ img.banner
     padding: 0;
 }
 
-.footer-items li
+.footer-items li 
 {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
@@ -295,10 +342,11 @@ img.banner
     color: #000000;
     font-size: 20px;
     text-decoration: none;
-    margin-left: -80px;
+    margin-left: 0px;
+    line-height: 150%;
 }
 
-.footer-items a
+.footer-items a 
 {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
@@ -308,6 +356,21 @@ img.banner
     text-decoration: none;
     color:#000000
 }
+
+.footer-items a:hover
+{
+    font-weight: bold;
+}
+
+.copyright 
+{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 16px;
+    color:#000000
+}
+
 
 .options-container
 {
@@ -463,6 +526,13 @@ border-bottom-left-radius: 90px;
     margin: 20px auto;
 }
 
+.shelters-container a:active /*no me funciona*/
+{
+    background-color: #163B55;
+    border-style: solid;
+    border-color:#011F2D;
+}
+
 .donate-container
 {
     display: flex;
@@ -544,6 +614,7 @@ border-bottom-left-radius: 90px;
     flex-direction: column;
     margin-left: 0;
     width: 550px;
+    border-style: none;
 }
 
 .form-container p
@@ -575,6 +646,12 @@ border-bottom-left-radius: 90px;
     text-align: center;
     margin-bottom: 50px;
 }
+
+legend
+{
+    text-transform: uppercase;
+}
+
 
 .checklist-container
 {

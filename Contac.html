@@ -2,32 +2,27 @@
 <html lang = "en">
 <head>
     <title> Contact </title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css\specificsContact.css" />
-    <link rel="icon" href="img\Screenshot 2024-10-06 140441.png" type="image/png">
     <meta charset="UFT-8" />
-    <!--Cambiar href si necesito otro css-->
-    <!--Tengo que arreglar primero el navegador poqrque cuando pongo el estilo se come le formulario--> 
-    <!--  <link rel="stylesheet" type="text/css" href="css/style.css" />  -->
-    <!--Poner el favicon-->
+    <meta name="author" content="Melissa Lemus">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="img\Screenshot 2024-10-06 140441.png" type="image/png">
 </head>
 <header>
-    <!--Logo + Paws + Navegation bar-->
     <nav id="navbar_container">
         <img src="img\Screenshot 2024-10-06 140441.png" alt="Paws Logo" class="logo">
         <h1 class="website_name"> Paws </h1>
         <ul class="navegation_items">
-            <li><a href="">Home</a> </li>
-            <li><a href="">Adopt</a> </li>
+            <li><a href="HomePage.html">Home</a> </li>
+            <li><a href="Page 1.html">Adopt</a> </li>
             <li><a href="Page 2.html">The Mission</a> </li>
-            <li><a href="">Help more</a> </li>
+            <li><a href="Page 3.html">Help more</a> </li>
             <li><a href="Page 4.html">Tips</a> </li>
             <li><a href="Contac.html">Contact</a> </li>
-            <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button"  class="button">Donate</a> </li>
+            <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button" target="_blank" class="button">Donate</a> </li>
         </ul>
     </nav>
     <section class="banner-container">
-        <img src="img\banner1.png" alt="Banner:Boy with a dog"  class="banner">
+        <img src="img\banner1.png" alt="Banner:Orange cat laid-down" class="banner">
         <article class="blue-header">
             <h2> Contact Page </h2>
             <p> 
@@ -49,38 +44,41 @@
 
         <article class="article-typo form-container">
             <p>
-                All the fields with * are mandatory to fill
+                All the fields with * are <em>mandatory</em> to fill
             </p>
-            <form action = "https://coolinhollanddemo.azurewebsites.net/" method="POST" class="form-container"> 
-                <span> Saludation* </span>
-                <section class="checklist-container">
-                    <input type="checkbox" id="check-female" name="gender" value="female">
-                <label for="check-female"> Ms.</label>
+            <form action = "https://coolinhollanddemo.azurewebsites.net/" method="POST" > 
+                <fieldset class="form-container">
+                    <legend> <strong>The form:</strong></legend>
+                    <span> Saludation* </span>
+                    <section class="checklist-container">
+                        <input type="checkbox" id="check-female" name="gender" value="female">
+                        <label for="check-female"> Ms.</label>
                 
-                <input type="checkbox" id="check-male" name="gender" value="male">
-                <label for="check-male"> Mr.</label>
+                        <input type="checkbox" id="check-male" name="gender" value="male">
+                        <label for="check-male"> Mr.</label>
                 
-                <input type="checkbox" id="check-other" name="gender" value="other">
-                <label for="check-other"> Other</label>
+                        <input type="checkbox" id="check-other" name="gender" value="other">
+                        <label for="check-other"> Other</label>
                 
-                </section>
+                    </section>
 
-                <label for="name"> First name * </label>
-                <input type="text" id="name" name="name" placeholder="Name" required>
+                    <label for="name"> First name * </label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
 
-                <label for="last-name"> Last name* </label>
-                <input type="text" id="last-name" name="last-name" placeholder="Surname" required>
+                    <label for="last-name"> Last name* </label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Surname" required>
 
-                <label for="email"> Email *</label>
-                <input type="email" id="email" name="email" placeholder="example@mail.com.cu">
+                    <label for="email"> Email *</label>
+                    <input type="email" value="Email" id="email" name="email" placeholder="example@mail.com.cu" >
 
-                <label for="telephone"> Phone Number</label>
-                <input type="tel" id="telephone" name="telephone" placeholder="+123 456 789">
+                    <label for="telephone"> Phone Number</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="+123 456 789">
 
-                <label for= "message">Your message *</label>
-                <textarea id="message" name="message" rows="4" cols="10" placeholder="Your message"></textarea>
+                    <label for= "message">Your message *</label>
+                    <textarea id="message" name="message" rows="4" cols="10" placeholder="Your message"></textarea>
 
-                <input type="submit" value="Submit" class="button">
+                    <input type="submit" value="Submit" class="button">
+                </fieldset>
             </form>
         </article>
     </section>
@@ -93,19 +91,19 @@
     <!--Ponerle a las listas el estilo para quitarles la bola de alante-->
     <ul class="footer-items">
         <li>About us</li>
-        <li><a href="">The Mission</a> </li>
-        <li><a href="">Tips</a> </li>
+        <li><a href="Page 2.html">The Mission</a> </li>
+        <li><a href="Page 4.html">Tips</a> </li>
     </ul>
     <ul class="footer-items">
         <li>Help</li>
-        <li><a href="">Volunteer</a> </li>
-        <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button">Donate</a> </li>
+        <li><a href="Page 3.html">Volunteer</a> </li>
+        <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button" target="_blank">Donate</a> </li>
     </ul>
     <ul class="footer-items">
         <li>General</li>
         <li><a href="Contac.html">Contact us</a> </li>
     </ul>
     </section>
-    <p>&copy; 2024 Melissa Lemus. All rights reserved</p>
+    <p class="copyright">&copy; 2024 Melissa Lemus. <em>All rights reserved</em></p>
 </footer>
 </html>

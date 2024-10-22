@@ -3,24 +3,22 @@
 <head>
     <title> The Mission </title>
     <meta charset="UFT-8" />
+    <meta name="author" content="Melissa Lemus">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/specificspage3.css" />
     <link rel="icon" href="img\Screenshot 2024-10-06 140441.png" type="image/png">
-    <!--Poner el favicon-->
 </head>
 <header>
-    <!--Logo + Paws + Navegation bar-->
     <nav id="navbar_container">
         <img src="img\Screenshot 2024-10-06 140441.png" alt="Paws Logo" class="logo">
         <h1 class="website_name"> Paws </h1>
         <ul class="navegation_items">
-            <li><a href="">Home</a> </li>
-            <li><a href="">Adopt</a> </li>
+            <li><a href="HomePage.html">Home</a> </li>
+            <li><a href="Page 1.html">Adopt</a> </li>
             <li><a href="Page 2.html">The Mission</a> </li>
-            <li><a href="">Help more</a> </li>
+            <li><a href="Page 3.html">Help more</a> </li>
             <li><a href="Page 4.html">Tips</a> </li>
             <li><a href="Contac.html">Contact</a> </li>
-            <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button"  class="button">Donate</a> </li>
+            <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button" target="_blank" class="button">Donate</a> </li>
         </ul>
     </nav>
     <section class="banner-container">
@@ -35,9 +33,6 @@
     </section>
 </header>
 <body> 
-    
-    <!--Sections + Articles (primero tengo una section y después un article)-->
-    <!--Necesito un Aside dentro del codigo-->
     <section class="article-typo">
         <h3>Volunteer</h3>
         <p>
@@ -57,9 +52,9 @@
             <img src="img\Rescuedog.png" alt="Rescue Dogs and Cat Logo"> 
             <img src="img\ahs.png" alt="Animal Human Society Logo">
 
-            <a href="https://www.peta.org/about-peta/volunteer/"  class="button">Apply</a>
-            <a href="https://www.rescuedogsandcats.com/volunteer"  class="button">Apply</a>
-            <a href="https://www.animalhumanesociety.org/volunteer"  class="button">Apply</a>
+            <a href="https://www.peta.org/about-peta/volunteer/" target="_blank" class="button">Apply</a>
+            <a href="https://www.rescuedogsandcats.com/volunteer" target="_blank" class="button">Apply</a>
+            <a href="https://www.animalhumanesociety.org/volunteer" target="_blank" class="button">Apply</a>
         </article>
     </section> 
     <section class="donate-container article-typo">  
@@ -77,10 +72,12 @@
                 brighter future. Imagine what it could be done with more often donations, all the waggy tales you 
                 will be contributing to save.
             </p>
-            <a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button#donate"  class="button center-button">Donate</a>
+            <a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button#donate" target="_blank" class="button center-button">Donate</a>
         </article>
-        
+        <figure>
         <img src="img\Volunteer.png" alt="Volunteer helping dog" class="images">
+        <figcaption> Paws volunteer </figcaption>
+        </figure>
     </section> 
     <section class="article-typo">
         <article>
@@ -101,28 +98,25 @@
             </p>
         </article>
     </section>
-
 </body>
 <footer id="footer">
     <section class="footer-container">
-     <!--Logo + All options (maybe in a list)-->
     <img src="img\Screenshot 2024-10-06 140441.png" alt="Paws Logo" class="logo-footer">
-    <!--Ponerle a las listas el estilo para quitarles la bola de alante-->
     <ul class="footer-items">
         <li>About us</li>
-        <li><a href="">The Mission</a> </li>
-        <li><a href="">Tips</a> </li>
+        <li><a href="Page 2.html">The Mission</a> </li>
+        <li><a href="Page 4.html">Tips</a> </li>
     </ul>
     <ul class="footer-items">
         <li>Help</li>
-        <li><a href="">Volunteer</a> </li>
-        <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button">Donate</a> </li>
+        <li><a href="Page 3.html">Volunteer</a> </li>
+        <li><a href="https://headlines.peta.org/donate/?en_txn7=Navigation::top-donate-now-button" target="_blank">Donate</a> </li>
     </ul>
     <ul class="footer-items">
         <li>General</li>
         <li><a href="Contac.html">Contact us</a> </li>
     </ul>
     </section>
-    <p>&copy; 2024 Melissa Lemus. All rights reserved</p>
+    <p class="copyright">&copy; 2024 Melissa Lemus. <em>All rights reserved</em></p>
 </footer>
 </html>
