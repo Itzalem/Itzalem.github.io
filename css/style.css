@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body
 {
     margin:0;
@@ -56,7 +60,6 @@ body
 .navegation_items a
 {
     font-family: "El Messiri", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     color: #000000;
     font-size: 24px;
@@ -122,7 +125,6 @@ img.banner
 .blue-header h2
 {
     font-family: "El Messiri", sans-serif;
-    font-optical-sizing: auto;
     font-size: 50px;
     padding:0;
     margin-bottom: 27px;
@@ -137,7 +139,6 @@ img.banner
 .blue-header p
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-size: 18px;
     width: 600px;
@@ -155,7 +156,6 @@ img.banner
 .article-typo p, .button
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-size: 18px;
     text-align: justify;
@@ -166,7 +166,6 @@ img.banner
 .article-typo form 
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-size: 18px;
     text-align: left;
@@ -176,7 +175,6 @@ img.banner
 .article-typo ::placeholder
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-size: 18px;
     text-align: left;
@@ -187,7 +185,6 @@ img.banner
 .article-typo h3
 {
     font-family: "El Messiri", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-size: 38px;
     text-align: center;
@@ -203,7 +200,6 @@ img.banner
     margin-top: 30px;   
     margin-bottom: -5px;
     font-family: "El Messiri", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-size: 24px;
     text-align: left;
@@ -222,7 +218,6 @@ figcaption
     text-align: center;
     width: 460px;
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-size: 16px;
     margin-left:10%;
@@ -337,7 +332,6 @@ figcaption
 .footer-items li 
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 800;
     color: #000000;
     font-size: 20px;
@@ -349,7 +343,6 @@ figcaption
 .footer-items a 
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-size: 18px;
     text-align: right;
@@ -365,7 +358,6 @@ figcaption
 .copyright 
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-size: 16px;
     color:#000000
@@ -414,7 +406,6 @@ figcaption
 .curiosity-typo p
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-size: 22px;
     text-align: center;
@@ -441,7 +432,6 @@ border-bottom-left-radius: 90px;
 .curiosity-typo h3  
 {
     font-family: "El Messiri", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-size: 50px;
     text-align: center;
@@ -462,6 +452,55 @@ border-bottom-left-radius: 90px;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-bottom: 90px;
+}
+
+aside
+{
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    border-color: #0674A7;
+    width: 60%;
+    margin-left:20%;
+    margin-right: 20%;;
+    margin-bottom: 60px;
+}
+
+table
+{
+    border:4px solid #D2E9F8;
+    padding:5px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    width:100%;
+}
+
+table th
+{
+    border-bottom:1px solid black;
+    text-align: center;
+}
+
+table td
+{
+    padding: 10px;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #CFF;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #FFF;
+}
+
+tr:hover 
+{
+    background-color: #D2E9F8;
 }
 
 /*-----Specifics-Page-1--------------------------------------------------------*/
@@ -583,7 +622,6 @@ border-bottom-left-radius: 90px;
 .tips li
 {
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-size: 18px;
     margin-top: 35px;
@@ -598,6 +636,12 @@ border-bottom-left-radius: 90px;
 .text-container
 {
     margin-right: 96px;
+}
+
+.form-container p::first-letter 
+{
+    font-size: 150%;
+    font-weight: bold;
 }
 
 .form-container input, .form-container textarea
