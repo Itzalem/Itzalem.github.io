@@ -352,14 +352,14 @@ figcaption {
     gap: 20px;
     background-color: #ffd56c;
     font-size: large;
-    border: 3px, solid, #E0A100;
+    border: 3px solid #E0A100;
     padding: 20px 40px;
 }
 
 /* Estilos para el botón */
 .cookies-button {
     background-color: #D2E9F8;
-    border: 3px, solid, #163B55;
+    border: 3px solid #163B55;
     padding: 10px;
     border-radius: 8px;
 }
