@@ -1,0 +1,22 @@
+<a href="Page 1.html" class="button center-button">All adoptable pets</a>
+        <article class= "options-container article-typo">
+            <p class="optionbox-1 item-a">
+                In Paws we trust that one adoption at the time can change hundreds of meaningful lives by the end 
+                of the day...
+            </p>
+            <p class="optionbox-2 item-b">
+                Do you want to volunteer, donate or know how else can you help? You came to the right place.
+            </p>
+            <p class="optionbox-3 item-c">
+                They might bite but we don’t, so you can contact us with any trouble you might encounter or if you 
+                want to get to know better any of our available pets.
+            </p>
+            <a href="Page 2.html" class="button optionbox-1 item-d">Read more</a>
+            <a href="Page 3.html" class="button optionbox-2 item-e">Want to help</a>
+            <a href="Contac.html" class="button optionbox-3 item-f">Contact</a>
+        </article>
+    </section>
+
+    
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: auto auto; /*cambiar tamaño*/
