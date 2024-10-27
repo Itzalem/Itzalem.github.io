@@ -1,8 +1,8 @@
-Student name: your name  
+Student name: Melissa Lemus Jiménez 
 
-Student number: your student number 
+Student number: 729185
 
-Student class: your class 
+Student class: IT1C 
 
 GitHub Repository: https://github.com/Itzalem/assessment2324-Web-Markup
 
